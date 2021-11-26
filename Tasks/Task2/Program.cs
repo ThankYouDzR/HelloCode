@@ -1,9 +1,7 @@
 ﻿Console.WriteLine("Введите первое число");
-string firstString = Console.ReadLine();
-int first = Convert.ToInt32(firstString);
+int first = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите второе число");
-string secondString = Console.ReadLine();
-int second = Convert.ToInt32(secondString);
+int second = Convert.ToInt32(Console.ReadLine());
 int stepen = 2;
 if(first == Math.Pow(second,stepen))
 {    
