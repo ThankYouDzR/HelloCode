@@ -1,4 +1,6 @@
-﻿Console.WriteLine("Введите первое число");
+﻿//Даны два числа. Показать большее и меньшее число
+
+Console.WriteLine("Введите первое число");
 int first = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите второе число");
 int second = Convert.ToInt32(Console.ReadLine());
